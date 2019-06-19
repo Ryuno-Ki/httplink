@@ -39,3 +39,9 @@ Multiple Link headers can be parsed at the same time if you concatenate them wit
 Redundant white space and comma delimiters are ignored.
 
 ``["key"]``-access is always case-insensitive.
+
+Python 2.7 can be loaded via
+
+.. code-block:: python2
+
+   from httplink.backport import parse_link_header
